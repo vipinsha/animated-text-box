@@ -3,8 +3,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     
 }
-form{
-    text-align: center;
     .input-content-holder{
     position: relative;
     input{
@@ -19,9 +17,7 @@ form{
         border-right:none;
         padding: 0;
         &:focus{
-            
-            border-bottom-color: grey;
-            
+            border-bottom-color: #1B4F72;
         }
     }
 
@@ -32,18 +28,5 @@ form{
             top:5px;
 
         }
-
-
-    
 }
 
-     @keyframes spanAnimation{
-            from{
-                background: red;
-            }
-            to{
-             background: red;
-            }
-        }
-
-        }

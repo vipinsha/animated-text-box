@@ -11,9 +11,13 @@ function txtFocus(ele){
 }
 
 function textFocusOut(ele){
-var element = document.getElementsByName(ele);
-    element[0].style.top = "5px";
-    element[0].style.fontSize = "16px";
-    element[0].style.color = "#1B4F72"
-     element[0].style.opacity = "0.5"
+    var element = document.getElementsByName(ele);
+    var elementID = document.getElementById(ele);
+    if(elementID.value=="")
+    {
+        element[0].style.top = "5px";
+        element[0].style.fontSize = "16px";
+        element[0].style.color = "#1B4F72"
+        element[0].style.opacity = "0.5"
+    }
 }

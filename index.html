@@ -12,13 +12,13 @@
 <form action="post">
     <div class="input-content-holder">
 
-        <input id="username" type="text" onclick="txtFocus(this.getAttribute('id'))"  onfocusout="textFocusOut(this.getAttribute('id'))" name="Username">
+        <input id="username" on type="text" onfocus="txtFocus(this.getAttribute('id'))"  onfocusout="textFocusOut(this.getAttribute('id'))" name="Username">
         <span name="username" onclick="txtFocus(this.getAttribute('name'))">Username</span>
     </div>
     
     <br/>
      <div class="input-content-holder">
-    <input id="password"  onclick="txtFocus(this.getAttribute('id'))" onfocusout="textFocusOut(this.getAttribute('id'))" type="password" name="Password">
+    <input id="password"  onfocus="txtFocus(this.getAttribute('id'))" onfocusout="textFocusOut(this.getAttribute('id'))" type="password" name="Password">
     <span name="password" onclick="txtFocus(this.getAttribute('name'))">Password</span>
     </div>
 </form>
