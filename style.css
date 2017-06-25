@@ -21,4 +21,15 @@ body {
     left: 0;
     top: 5px; }
 
+.btn {
+  border: 0;
+  background: #1B4F72;
+  color: #f9f9f9;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  outline: none;
+  font-size: 15px; }
+
 /*# sourceMappingURL=style.css.map */
