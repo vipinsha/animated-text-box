@@ -1,0 +1,49 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+form{
+    text-align: center;
+    .input-content-holder{
+    position: relative;
+    input{
+        
+        height: 30px;
+        min-width: 200px;
+        font-size: 16px;
+        border-bottom:2px solid lightblue;
+        outline:none;
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        padding: 0;
+        &:focus{
+            
+            border-bottom-color: grey;
+            
+        }
+    }
+
+         span{
+            opacity: 0.5;
+            position: absolute;
+            left:0;
+            top:5px;
+
+        }
+
+
+    
+}
+
+     @keyframes spanAnimation{
+            from{
+                background: red;
+            }
+            to{
+             background: red;
+            }
+        }
+
+        }
